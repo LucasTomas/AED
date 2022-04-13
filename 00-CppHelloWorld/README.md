@@ -10,7 +10,10 @@ Iremos en la parte superior a Windows -> General -> WorkSpace
 Luego nos desplazamos a C/C++ -> Build 
                                  |-> Enviroment -> ADD ----> Y comolocaremos como name: "Path" y value: "C:\MinGW\bin"                                                                                    |-> New C/C++ proyect wizard -> desabilitaremos la opcion que dice "Show proyect types (...)" y seleccionaremos en Toolchain "MinGW GCC"
                                  
-Y ya tendremos listo y configurado nuestro IDE y nuestro compilador para su correcto uso         
+Y ya tendremos listo y configurado nuestro IDE y nuestro compilador para su correcto uso    
+
+Al igual que en el portafolio "AED" queda detallado la instalacion del IDE y su compilador ya que era parte del trabajo, pero en futuros trabajos solo quedara informado en el portafolio "AED"
+
 
 // Resolucion del trabajo 0
 
@@ -23,3 +26,4 @@ Ya determinado eso empezaremos con la funcion principal la cual la denominamos i
 En ella incluiremos la linea de codigo "cout<<"HelloWorld!";" para que como salida de la funcion tengamos un mensaje diciendo "HelloWorld!"
 
 Luego apretamos ctrl+b y por ultimo ejecutamos el programa con F5 y tendremos una linea de codigo diciendo "HelloWorld!"
+
