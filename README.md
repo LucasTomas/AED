@@ -3,6 +3,7 @@ Aca se subiran todos los trabajos practicos correspondientes a la Materia "Algor
 
 
 // Instrucciones para la instalacion y configuracion de nuestro IDE y el compilador
+
 Para los trabajos de la Materia se utilizara como IDE "Eclipse IDE for C/C++ Developers"(https://www.eclipse.org/downloads/packages/release/2022-03/r/eclipse-ide-cc-developers) y como compilador utilizaremos el Equatios(http://www.equation.com/servlet/equation.cmd?fa=home), que al momento de instalar se debera instalar en la carpeta "C:\MinGW"
 
 Para configurar correctamente el IDE, una vez abierto:
