@@ -27,3 +27,8 @@ En ella incluiremos la linea de codigo "cout<<"HelloWorld!";" para que como sali
 
 Luego apretamos ctrl+b y por ultimo ejecutamos el programa con F5 y tendremos una linea de codigo diciendo "HelloWorld!"
 
+// Creacion de Archivo Output
+
+En el caso de la utilizacion del ide Eclipse, podremos desplazarnos a la parte arriba 
+                                       Run --> Debug configuration --> common --> Habilitaremos la opcion output y le asignaremos un nombre a ese archivo
+                                       
