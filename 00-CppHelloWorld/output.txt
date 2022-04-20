@@ -1,3 +1,0 @@
-//Salida del programa luego de compilarlo y ejecutarlo
-
-Hello World!
