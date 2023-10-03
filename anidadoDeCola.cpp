@@ -134,14 +134,17 @@ int main() {
 	int x;
 	
 	//Cargamos los nodos de A
-	queue (frenteA, finA, 1);
-	queue (frenteB, finB, 4);
-    queue (frenteA, finA, 6);
+	queue (frenteB, finB, 1);
+    	queue (frenteA, finA, 5);
+    	queue (frenteA, finA, 7);
+    	queue (frenteA, finA, 10);
 	
 	//Cargamos los nodos de B
+	queue (frenteB, finB, 2);
 	queue (frenteB, finB, 3);
-	queue (frenteB, finB, 5);
-    queue (frenteB, finB, 10);
+   	queue (frenteB, finB, 6);
+    	queue (frenteB, finB, 9);
+    	queue (frenteB, finB, 11);
 
 	anidarColas(frenteA, finA, frenteB, finB, frenteAB, finAB);
 	
