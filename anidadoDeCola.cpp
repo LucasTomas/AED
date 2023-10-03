@@ -53,13 +53,24 @@ int unqueue(Nodo*&frente,Nodo*&fin){
 
 void anidarColas (Nodo*&frenteA, Nodo*&finA, Nodo*&frenteB, Nodo*&finB, Nodo*&frenteAB, Nodo*&finAB) {
     
-    while ((frenteA != NULL) && (frenteB != NULL)){
-        if (frenteA->info < frenteB->info){
-            queue(frenteAB, finAB, frenteA->info);
-            unqueue(frenteA, finA);
-        } else {
+    while ((frenteA != NULL) || (frenteB != NULL)){
+        if (frenteA == NULL){
             queue(frenteAB, finAB, frenteB->info);
             unqueue(frenteB, finB);
+        } else {
+            if (frenteB == NULL)
+            {
+                queue(frenteAB, finAB, frenteA->info);
+                unqueue(frenteA, finA);
+            } else {
+                if (frenteA->info < frenteB->info){
+                    queue(frenteAB, finAB, frenteA->info);
+                    unqueue(frenteA, finA);
+                } else {
+                    queue(frenteAB, finAB, frenteB->info);
+                    unqueue(frenteB, finB);
+                }
+            }
         }
     }
     
