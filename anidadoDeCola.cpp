@@ -13,7 +13,6 @@ void push(Nodo*&pila, int x){
     p->info = x; 
     p->sgte = pila; 
     pila = p; 
-
 };
 
 int pop(Nodo*&pila){ 
